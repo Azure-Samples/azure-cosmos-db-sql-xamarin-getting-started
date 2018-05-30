@@ -1,57 +1,47 @@
-# Project Name
+---
+services: cosmos db
+platforms: xamarin
+author: codemillmatt
+---
 
-(short, 1-3 sentenced, description of the project)
+# Azure Cosmos DB SQL API Xamarin Getting Started
+
+Quick start Xamarin app demonstrating how to use the Azure Cosmos DB SQL API with a Xamarin app.
 
 ## Features
 
 This project framework provides the following features:
 
-* Feature 1
-* Feature 2
-* ...
+* [Azure Cosmos DB SQL](https://msou.co/bi3)
+* [Xamarin.Forms](https://msou.co/bi6)
+* [MVVM architecture pattern](https://msou.co/bi7)
 
 ## Getting Started
 
 ### Prerequisites
 
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
+* Azure subscription (create a [free one here](https://msou.co/bi5))
+* Azure Cosmos DB database
+* [Visual Studio with Mobile Development with .NET workload](https://msou.co/bi8) (or [Visual Studio for Mac](https://msou.co/bi9))
 
 ### Installation
 
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
+* Clone this repository
+* Open src/ToDoItems.sln
+* Restore NuGet packages
 
 ### Quickstart
-(Add steps to get up and running quickly)
 
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
-
+1. Follow the directions in this [article](https://msou.co/bi4).
 
 ## Demo
 
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
+The demo app is a simple To Do manager. You can enter new ToDo items, mark them complete, and view both pending and complete items on separate tabs.
 
 ## Resources
 
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+* [Azure Cosmos DB documentation](https://msou.co/bi2)
+* [Azure Cosmos DB SQL documentation](https://msou.co/bi3)
+* [Azure Cosmos DB SQL + Xamarin Quick Start article](https://msou.co/bi4)
+* [Xamarin.Forms documentation](https://msou.co/bi6)
+* [Create a free Azure account](https://msou.co/bi5)
