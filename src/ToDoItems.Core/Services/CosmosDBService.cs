@@ -61,7 +61,7 @@ namespace ToDoItems.Core
 
             var todoQuery = docClient.CreateDocumentQuery<ToDoItem>(
                 UriFactory.CreateDocumentCollectionUri(databaseName, collectionName),
-                new FeedOptions { MaxItemCount = -1 })
+                new FeedOptions { MaxItemCount = -1, EnableCrossPartitionQuery = true })
                 .Where(todo => todo.Completed == false)
                 .AsDocumentQuery();
 
@@ -84,7 +84,7 @@ namespace ToDoItems.Core
 
             var completedToDoQuery = docClient.CreateDocumentQuery<ToDoItem>(
                 UriFactory.CreateDocumentCollectionUri(databaseName, collectionName),
-                new FeedOptions { MaxItemCount = -1 })
+                new FeedOptions { MaxItemCount = -1, EnableCrossPartitionQuery = true })
                 .Where(todo => todo.Completed == true)
                 .AsDocumentQuery();
 
