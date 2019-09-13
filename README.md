@@ -1,7 +1,11 @@
 ---
-services: cosmos-db
-platforms: xamarin
-author: codemillmatt
+page_type: sample
+languages:
+- csharp
+products:
+- azure
+description: "Quick start Xamarin app demonstrating how to use the Azure Cosmos DB SQL API with a Xamarin app."
+urlFragment: azure-cosmos-db-sql-xamarin-getting-started
 ---
 
 # Azure Cosmos DB SQL API Xamarin Getting Started
