@@ -33,6 +33,7 @@ namespace ToDoItems.Core
 
                 // Create the collection - make sure to specify the RUs - has pricing implications
                 // This can also be done through the portal
+
                 await docClient.CreateDocumentCollectionIfNotExistsAsync(
                     UriFactory.CreateDatabaseUri(databaseName),
                     new DocumentCollection { Id = collectionName },
