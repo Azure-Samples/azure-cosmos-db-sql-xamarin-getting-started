@@ -5,7 +5,8 @@
     xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
     x:Class="ToDoItems.Core.ItemDetailPage"
     Title="{Binding Title}"
-    ios:Page.UseSafeArea="true">
+    ios:Page.UseSafeArea="true"
+    Visual="Material">
     <ContentPage.Content>
         <TableView Intent="Form">
             <TableRoot>
